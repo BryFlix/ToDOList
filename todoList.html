@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="todoList.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.1/jquery-ui.min.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Enter to add a task" id="input">
+        <ul></ul>
+    </div>
+
+    <!--load the cdn first-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <!--using cdn-->
+    <!--If cdn fails to load, serve up the local version-->
+    <script>window.jQuery || document.write('<script src="js/jquery-3.6.0.js"><\/script');</script> <!--using local-->
+    <!--jQuery UI-->
+    <script src="js/jquery-ui-1.13.1/jquery-ui.min.js"></script>
+    <script src="todoList.js"></script> 
+</body>
+</html>
